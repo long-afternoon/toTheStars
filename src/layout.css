@@ -1,0 +1,40 @@
+.footer {
+    width: 100vw;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 3px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+                                                              
+}
+
+
+.header {
+    width: 100vw;
+    height: 55px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 3px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.glass {
+    background: rgba(135, 206, 235, 0.2);
+    /* 25% visible white */
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.glass-header {
+    background: rgba(135, 206, 235, 0.1);
+    /* 25% visible white */
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
