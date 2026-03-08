@@ -10,46 +10,64 @@ function Sky() {
 
   return (
     <div className='sky'>
-      
-    <div className="parent">
-        <div className="div1">1</div>
-        <div className="div2">2</div>
-        <div className="div3">3</div>
-        <div className="div4">4</div>
-        <div className="div5">5</div>
-        <div className="div6">6</div>
-        <div className="div7">7</div>
-        <div className="div8">8</div>
-        <div className="div9">9</div>
-        <div className="div10">10</div>
-        <div className="div11">11</div>
-        <div className="div12">12</div>
-        <div className="div13">13</div>
-        <div className="div14">14</div>
-        <div className="div15">15</div>
-        <div className="div16">16</div>
-        <div className="div17">17</div>
-        <div className="div18">18</div>
-        <div className="div19">19</div>
-        <div className="div20">20</div>
-        <div className="div21">21</div>
-        <div className="div22">22</div>
-        <div className="div23">23</div>
-        <div className="div24">24</div>
-        <div className="div25">25</div>
-        <div className="div26">26</div>
-        <div className="div27">27</div>
-        <div className="div28">28</div>
-        <div className="div29">29</div>
-        <div className="div30">30</div>
-        <div className="div31">31</div>
-        <div className="div32">32</div>
-        <div className="div33">33</div>
-        <div className="div34">34</div>
-        <div className="div35">35</div>
-        <div className="div36">36</div>
-    </div>
-    
+
+
+      <div className="parent">
+        {Stars.map((star) => {
+          return <div className={`div${star.id}`}></div>
+        })}
+
+        {/* <div className="div1"></div>
+        <div className="div2"></div>
+        <div className="div3"></div>
+        <div className="div4"></div>
+        <div className="div5"></div>
+        <div className="div6"></div>
+        <div className="div7"></div>
+        <div className="div8"></div>
+        <div className="div9"></div>
+        <div className="div10"></div>
+        <div className="div11"></div>
+        <div className="div12"></div>
+        <div className="div13"></div>
+        <div className="div14"></div>
+        <div className="div15"></div>
+        <div className="div16"></div>
+        <div className="div17"></div>
+        <div className="div18"></div>
+        <div className="div19"></div>
+        <div className="div20"></div>
+        <div className="div21"></div>
+        <div className="div22"></div>
+        <div className="div23"></div>
+        <div className="div24"></div>
+        <div className="div25"></div>
+        <div className="div26"></div>
+        <div className="div27"></div>
+        <div className="div28"></div>
+        <div className="div29"></div>
+        <div className="div30"></div>
+        <div className="div31"></div>
+        <div className="div32"></div>
+        <div className="div33"></div>
+        <div className="div34"></div>
+        <div className="div35"></div>
+        <div className="div36"></div>
+        <div className="div37"></div>
+        <div className="div38"></div>
+        <div className="div39"></div>
+        <div className="div40"></div>
+        <div className="div41"></div>
+        <div className="div42"></div>
+        <div className="div43"></div>
+        <div className="div44"></div>
+        <div className="div45"></div>
+        <div className="div46"></div>
+        <div className="div47"></div>
+        <div className="div48"></div> */}
+      </div>
+
+
     </div>
   )
 }

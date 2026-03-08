@@ -4,12 +4,12 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    margin-bottom: 3px;
+    /* margin-bottom: 3px; */
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-                                                              
+
 }
 
 
@@ -37,4 +37,48 @@
     background: rgba(135, 206, 235, 0.1);
     /* 25% visible white */
     border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+
+/* @media(max-width: ) */
+
+
+/*menu*/
+
+.menu {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 40px; */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menuTable {
+    width: 320px;
+    border-collapse: collapse;
+    color: #141111;
+    font-family: "Courier New", monospace;
+    background: rgb(174, 225, 246);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 0 0 10px 0;
+    overflow: hidden;
+}
+
+.menuTable th,
+.menuTable td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.menuTable th {
+    background: rgba(57, 178, 248, 0.852);
+    letter-spacing: 1px;
+}
+
+.menuTable tbody tr:hover {
+    background: rgb(89, 191, 255);
+    transition: 0.2s ease;
 }

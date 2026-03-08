@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 import Sky from './Home'
 import Footer from './Footer'
 import Header from './Header'
+import Menu from './Menu'
 
 function App() {
 
@@ -15,8 +16,10 @@ function App() {
     //   </Route>
     // </Routes>
     <>
-      <Header/>
-      <Footer/>
+      {/* <Header/> */}
+      <Sky/>
+      {/* <Menu/>
+      <Footer/> */}
     </>
   )
 }
